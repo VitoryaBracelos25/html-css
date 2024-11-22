@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'morning';
+    src: url('pacote-d012/super_morning/Super\ Morning.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+main{
+    min-width: 350px;
+    max-width: 800px;
+}
+header{
+    height: 160px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 25px;
+}
+
+header > h1{
+    font-family: 'morning';
+}
+
+p{
+    font-weight: bolder;
+    font-size: larger;
+}
+
+.p1{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+p#cor{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.444);
+}
