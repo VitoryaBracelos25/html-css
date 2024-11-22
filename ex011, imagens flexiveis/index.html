@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>
+        Imagem dinâmica
+    </h1>
+    <p>
+        Tente abrir esse site em vários sispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador.
+    </p>
+    <picture> 
+        <source media="(max-width: 750px)" srcset="imagens/imagem-p.png" type="image/png">
+        <source media="(max-width: 1200px)" srcset="imagens/imagem-m.png" type="image/png">
+        <img src="imagens/imagem-g.png" alt="imagem flexivel">
+    </picture>
+    <h1>
+        Reproduzindo Áudio
+    </h1>
+    <p>
+        Vamos aprender a reproduzir áudios em HTML.
+    </p>
+    <audio preload="metadata" controls>
+        <source src="midia/Young Squire - TrackTribe.mp3" type="audio/mpeg"> <!-- serve pra mp3-->
+        <source src="midia/Young Squire - TrackTribe.ogg"
+        type="audio/ogg"> <!-- é melhor colocar os três porque assim se não funcionar em um funciona em algum-->
+        <source src="midia/Young Squire - TrackTribe.wav"
+        type="audio/wav">
+        <p>
+            Infelizmente seu navegador não consegue reproduzir áudio.<a href="midia/Young Squire - TrackTribe.mp3">clique aqui para baixar</a><!-- se não tiver compatibilidade com nenhum dos três vai aparecer isso aqui-->
+        </p>
+    </audio>
+</body>
+</html>

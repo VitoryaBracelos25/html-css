@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gruping Tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+            margin: 0px;
+        }
+        header{
+            background-color: white;
+            padding: 1px 10px 15px 20px ;
+            margin: 10px;
+        }
+        main{
+            background-color: white;
+            padding: 1px 10px 15px 20px;
+            margin: 10px;
+        }
+        footer{
+            background-color: black;
+            color: white;
+            margin: 0;
+            padding: 8px;
+            text-align: center;
+        }
+        main > section#assuntos{
+            font-weight: bold;
+        }
+        section#noticias > article{
+            background-color: lightgray;
+            padding: 10px;
+            border-radius: 10px 0px;
+            box-shadow: 4px 4px 9px 0px rgba(0, 0, 0, 0.384);
+        }
+        article > aside{
+            background-color: rgb(97, 97, 97);
+        }
+        nav > a{
+            text-decoration: none;
+            margin-right: 30px;
+            color: white;
+        }
+        header > nav{
+            background-color: rgb(97, 92, 92);
+            box-shadow: 5px 5px 7px 0px rgba(0, 0, 0, 0.64);
+        }
+        nav > a:hover{
+            text-decoration: underline;            
+        }
+        footer > p{
+            margin: 0px;
+        }
+    </style>
+
+</head>
+<body>
+    <header>
+        <h1>
+            Meu site
+        </h1>
+        <nav>
+            <a href="#">LINK</a>
+            <a href="#">LINK</a>
+            <a href="#">LINK</a>
+        </nav>  
+    </header>
+    
+    <main>
+        <section id="assuntos">
+            <p>
+                Esportes Política Tecnologia
+            </p>
+        </section>
+        <section id="noticias"> 
+            <article>
+                <h2>
+                    Notícias sobre o Brasil
+                </h2>
+                <p>
+                    d kvk dvhfdbvhbbdbvdkvbdhbvdnbv ndfj vndf nv fn vfjv f vnf vvvvvvd vdn v rf ejfiefenfjnjfenjf
+                </p>
+                <aside>
+                    <p>
+                        Artigo escrito po José da Silva
+                    </p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por vitorya</p>
+    </footer>
+    
+</body>
+</html>
