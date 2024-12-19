@@ -6,38 +6,54 @@
     font-weight: normal;
     font-style: normal;
 }
-
-main{
-    min-width: 300px;
-    max-width: 900px;
+@font-face {
+    font-family: 'forma';
+    src: url('over_light/Over\ Light.otf') format('opentype');
+    font-weight: 300;
+    font-style: normal;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    height: 100vh;
 
 }
 header{
-    height: 160px;
     background-color: black;
     color: white;
     text-align: center;
-    padding-top: 25px;
+    padding-top: 18px;
+    padding-bottom: 7px;
 }
 
 header > h1{
     font-family: 'morning';
+    font-size: 5vw;
+}
+p > a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
 }
 
-section > .bloco{
+main > .bloco{
     display: inline block;
-    border: 2px solid rgba(55, 52, 52, 0.875);
+    border: 2px solid white;
     min-width: 300px;
-    max-width: 900px;
+    max-width: 1200px;
     height: 670px;
 
     padding-left: 15px;
-    padding-top: 100px;
+    padding-top: 7vh;
+    padding-bottom: 7vh;
 
-    font-family: 'morning';
-    font-weight: 100;
-    font-size: larger;
-    
+    font-family: 'forma', Arial, Helvetica, sans-serif;
+    font-size: 3.5vw;
+
 }
 div#b2{
     background-image: url('pacote-d012/imagens/background001.jpg');
@@ -45,12 +61,9 @@ div#b2{
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    box-shadow: 4px 0px 0px rgba(0, 0, 0, 0.419);
 }
 div#b2 > p{
     display: inline-block;
-    width: 400px;
-    height: 350px;
     background-color: rgba(46, 44, 44, 0.485);
     color: white;
     padding-left: 15px;
@@ -65,8 +78,6 @@ div#b4{
 }
 div#b4 > p{
     display: inline block;
-    width: 400px;
-    height: 350px;
     background-color: rgba(46, 44, 44, 0.485);
     color: white;
     padding-left: 15px;
