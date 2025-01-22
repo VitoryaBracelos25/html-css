@@ -1,0 +1,89 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'fonte1';
+    src: url(over_light/Over\ Light.otf) format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'fonte2';
+    src: url(pacote-d012/super_morning/Super\ Morning.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+html , body{
+    margin:0;
+    max-width: 1540px;
+    min-width: 300px;
+    background-color: darkgrey;
+}
+
+header{
+    text-align: center;
+    color: white;
+    background-color: black;
+    padding-top: 50px;
+    padding-bottom: 42px;
+}
+header > h1{
+    margin-bottom: 0%;
+    font-family: 'fonte2', Arial, Helvetica, sans-serif;
+    font-variant: small-caps;
+}
+header > p{
+    text-decoration: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 2px;
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+} 
+a:hover{
+    text-decoration: underline;
+} 
+
+section{
+    /*padding-top: 10vh;
+    padding-bottom: 10vw;*/
+    font-family: 'fonte1';
+    font-weight: 580;
+    padding-left: 20px;
+    line-height: 2em;
+}
+
+section.branco{
+    background-color: white;
+    color: black;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+
+section.imagem{
+    color: white;
+    padding-top: 8vh;
+    padding-bottom: 20vh;
+    padding-left: 0;
+    
+}
+div{
+    background-color: rgba(0, 0, 0, 0.219);    
+    padding-left: 20px;
+    width: 200px;
+    height: 250px;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
